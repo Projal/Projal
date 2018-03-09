@@ -1,25 +1,25 @@
 
-id-mol  nom_mol		maladie										    conflit
+id-mol  nom_mol		type                                            maladie										    conflit
 
-42215	ANASTROZOLE     cancers du sein chez la femme ménopausée                                            interaction Plastestan, vorozole, anastrozole	
-25783	RANITIDINE      reflux gastro-oesophagiens,syndromes de Zollinger-Ellison, ulcères 	            ø
-35415	TRAMADOL        prise en charge de douleurs modérées à intenses.			            ø
-19809	ATORVASTATINE   hypercholestérolémies,hyperlipidémies mixtes, $ risque cardiovasculaire.            risque de diabète 
-37973	RIVASTIGMINE	démences, maladies d’Alzheimer			                                    ø
-66431	CIPROFLOXACINE  infections				                                            ø
-11532	RAMIPRIL        hypertensions artérielles, insuffisances cardiaques,                                grossesse 
-00769	DIOSMINE        hémorroïdes,									    ø
-15734	VALSARTAN       hypertensions artérielles,insuffisances cardiaques,postinfarctus du myocarde ,      grossesse
-25715	ACICLOVIR       herpès,syndromes de Kaposi-Juliusberg,méningo-encéphalites herpétiques,varicelles   ø				
-01574	CYTARABINE      leucémies,lymphomes	                                                            complications  graves possibles
-03044	CARBOCISTÉINE	troubles de la sécrétion bronchique.			                            ø
-31416	IRBÉSARTAN      hypertensions artérielles,néphropathies.                                            grossesse		
-38524	PANTOPRAZOLE	reflux gastro-oesophagiens,ulcères gastroduodénaux			            ø
-02382	MÉTRONIDAZOLE	acnées rosacées,vaginites		                                            ø
-03778	CHLORHEXIDINE   antisepsies,affections buccopharyngées,affections cutanées.	                    ø
-46704	OXYCODONE       douleurs intenses,douleurs cancéreuses                                              opioïde de palier III			
-78429	CÉLIPROLOL      hypertensions artérielles, angors.				                    ø
-01328	MOLSIDOMINE     angors			                                                            ø
-00587	CIMÉTIDINE      gastralgies,oesophagites,reflux gastro oesophagiens,			            ø  	
-96835	ARIPIPRAZOLE    schizophrénies.                                                                     risque de suicide
-67851	BOCÉPRÉVIR      hépatites C.	                                                                    Interactions médicamenteuses avec ritonavir
+42215	ANASTROZOLE     inhibiteur non stéroïdien de l'aromatase      cancers du sein chez la femme ménopausée                                            interaction hormone de croissance 
+25783	RANITIDINE      antagoniste des récepteurs H2 à l'histamine   reflux gastro-oesophagiens,syndromes de Zollinger-Ellison, ulcères 	          ø
+35415	TRAMADOL        analgésique                                   prise en charge de douleurs modérées à intenses.			                  ø
+19809	ATORVASTATINE  	inhibiteur de la HMG-CoA réductase            hypercholestérolémies,hyperlipidémies mixtes, risque cardiovasculaire.              risque de diabète 
+37973	RIVASTIGMINE	inhibiteur de l'acétyl                        démences, maladies d’Alzheimer			                                  ø
+66431	CIPROFLOXACINE  antibiotique  (fluoroquinolones)              infections				                                          ø
+11532	RAMIPRIL        inhibiteur de la dipeptidylcarboxypeptidase   hypertensions artérielles, insuffisances cardiaques,                                grossesse 
+00769	DIOSMINE                                                      hémorroïdes,									  ø
+15734	VALSARTAN       inhibiteur du récepteur AT1                   hypertensions artérielles,insuffisances cardiaques,postinfarctus du myocarde        grossesse
+25715	ACICLOVIR       antiviral                                     herpès,syndromes de Kaposi-Juliusberg,méningo-encéphalites herpétiques,varicelles   ø				
+01574	CYTARABINE      antimétabolite                                leucémies,lymphomes	                                                          complications  graves possibles
+03044	CARBOCISTÉINE	mucolytique                                   troubles de la sécrétion bronchique.			                          ø
+31416	IRBÉSARTAN      antagoniste de l'angiotensine II              hypertensions artérielles,néphropathies.                                            grossesse		
+38524	PANTOPRAZOLE	benzimidazole                                 reflux gastro-oesophagiens,ulcères gastroduodénaux			          ø
+02382	MÉTRONIDAZOLE	antibiotique antibactérien antiparasitaire    acnées rosacées,vaginites		                                                  ø
+03778	CHLORHEXIDINE   antiseptique bactéricide à large spectre      antisepsies,affections buccopharyngées,affections cutanées.	                  ø
+46704	OXYCODONE       agoniste opioïde pur.                         douleurs intenses,douleurs cancéreuses                                              opioïde de palier III			
+78429	CÉLIPROLOL      bêtabloquant                                  hypertensions artérielles, angors.				                  ø
+01328	MOLSIDOMINE     sydnonimines                                  angors			                                                          ø
+00587	CIMÉTIDINE      antisécrétoire gastrique                      gastralgies,oesophagites,reflux gastro oesophagiens,			          ø  	
+96835	ARIPIPRAZOLE    antipsychotique                               schizophrénies.                                                                     risque de suicide
+67851	BOCÉPRÉVIR      antiviral                                     hépatites C.	                                                                  Interactions inhibiteurs de protéase du VIH
