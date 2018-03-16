@@ -1,51 +1,51 @@
 
-id-mol  nom_mol		type                                            maladie										    conflit
+nom_mol		type                                            maladie										    conflit
 
-42215	ANASTROZOLE     inhibiteur non stéroïdien de l'aromatase      cancers du sein chez la femme ménopausée                                            interaction hormone de croissance 
-25783	RANITIDINE      antagoniste des récepteurs H2 à l'histamine   reflux gastro-oesophagiens,syndromes de Zollinger-Ellison, ulcères 	          ø
-35415	TRAMADOL        analgésique                                   prise en charge de douleurs modérées à intenses.			                  ø
-19809	ATORVASTATINE  	inhibiteur de la HMG-CoA réductase            hypercholestérolémies,hyperlipidémies mixtes, risque cardiovasculaire.              risque de diabète 
-37973	RIVASTIGMINE	inhibiteur de l'acétyl                        démences, maladies d’Alzheimer			                                  ø
-66431	CIPROFLOXACINE  antibiotique  (fluoroquinolones)              infections				                                          ø
-11532	RAMIPRIL        inhibiteur de la dipeptidylcarboxypeptidase   hypertensions artérielles, insuffisances cardiaques,                                grossesse 
-00769	DIOSMINE                                                      hémorroïdes,									  ø
-15734	VALSARTAN       inhibiteur du récepteur AT1                   hypertensions artérielles,insuffisances cardiaques,postinfarctus du myocarde        grossesse
-25715	ACICLOVIR       antiviral                                     herpès,syndromes de Kaposi-Juliusberg,méningo-encéphalites herpétiques,varicelles   ø				
-01574	CYTARABINE      antimétabolite                                leucémies,lymphomes	                                                          complications  graves possibles
-03044	CARBOCISTÉINE	mucolytique                                   troubles de la sécrétion bronchique.			                          ø
-31416	IRBÉSARTAN      antagoniste de l'angiotensine II              hypertensions artérielles,néphropathies.                                            grossesse		
-38524	PANTOPRAZOLE	benzimidazole                                 reflux gastro-oesophagiens,ulcères gastroduodénaux			          ø
+ANASTROZOLE     inhibiteur non stéroïdien de l'aromatase      cancers du sein chez la femme ménopausée                                            interaction hormone de croissance 
+RANITIDINE      antagoniste des récepteurs H2 à l'histamine   reflux gastro-oesophagiens,syndromes de Zollinger-Ellison, ulcères 	          ø
+TRAMADOL        analgésique                                   prise en charge de douleurs modérées à intenses.			                  ø
+ATORVASTATINE  	inhibiteur de la HMG-CoA réductase            hypercholestérolémies,hyperlipidémies mixtes, risque cardiovasculaire.              risque de diabète 
+RIVASTIGMINE	inhibiteur de l'acétyl                        démences, maladies d’Alzheimer			                                  ø
+IPROFLOXACINE  antibiotique  (fluoroquinolones)              infections				                                          ø
+RAMIPRIL        inhibiteur de la dipeptidylcarboxypeptidase   hypertensions artérielles, insuffisances cardiaques,                                grossesse 
+DIOSMINE                                                      hémorroïdes,									  ø
+VALSARTAN       inhibiteur du récepteur AT1                   hypertensions artérielles,insuffisances cardiaques,postinfarctus du myocarde        grossesse
+ACICLOVIR       antiviral                                     herpès,syndromes de Kaposi-Juliusberg,méningo-encéphalites herpétiques,varicelles   ø				
+CYTARABINE      antimétabolite                                leucémies,lymphomes	                                                          complications  graves possibles
+CARBOCISTÉINE	mucolytique                                   troubles de la sécrétion bronchique.			                          ø
+IRBÉSARTAN      antagoniste de l'angiotensine II              hypertensions artérielles,néphropathies.                                            grossesse		
+PANTOPRAZOLE	benzimidazole                                 reflux gastro-oesophagiens,ulcères gastroduodénaux			          ø
 
-02382	MÉTRONIDAZOLE	antibiotique antibactérien antiparasitaire    acnées rosacées,vaginites		                                                  ø
-03778	CHLORHEXIDINE   antiseptique bactéricide à large spectre      antisepsies,affections buccopharyngées,affections cutanées.	                  ø
-46704	OXYCODONE       agoniste opioïde pur.                         douleurs intenses,douleurs cancéreuses                                              opioïde de palier III			
-78429	CÉLIPROLOL      bêtabloquant                                  hypertensions artérielles, angors.				                  ø
-01328	MOLSIDOMINE     sydnonimines                                  angors			                                                          ø
-00587	CIMÉTIDINE      antisécrétoire gastrique                      gastralgies,oesophagites,reflux gastro oesophagiens,			          ø  	
-96835	ARIPIPRAZOLE    antipsychotique                               schizophrénies.                                                                     risque de suicide
-67851	BOCÉPRÉVIR      antiviral                                     hépatites C.	                                                                  Interactions inhibiteurs de protéase du VIH
+MÉTRONIDAZOLE	antibiotique antibactérien antiparasitaire    acnées rosacées,vaginites		                                                  ø
+CHLORHEXIDINE   antiseptique bactéricide à large spectre      antisepsies,affections buccopharyngées,affections cutanées.	                  ø
+OXYCODONE       agoniste opioïde pur.                         douleurs intenses,douleurs cancéreuses                                              opioïde de palier III			
+CÉLIPROLOL      bêtabloquant                                  hypertensions artérielles, angors.				                  ø
+MOLSIDOMINE     sydnonimines                                  angors			                                                          ø
+CIMÉTIDINE      antisécrétoire gastrique                      gastralgies,oesophagites,reflux gastro oesophagiens,			          ø  	
+ARIPIPRAZOLE    antipsychotique                               schizophrénies.                                                                     risque de suicide
+BOCÉPRÉVIR      antiviral                                     hépatites C.	                                                                  Interactions inhibiteurs de protéase du VIH
 
 
 
-ARIMIDEX 1 mg cp pellic                42215
-AZANTAC 150 mg cp efferv   	       25783
-CONTRAMAL 50 mg gél         	       35415
-ATORVASTATINE ACCORD 10 mg cp pellic   19809
-EXELON 3 mg gél			       37973
-CIFLOX 250 mg cp pellic séc	       66431
-TRIATEC 10 mg cp séc		       11532
-DAFLON 1000 mg cp pellic	       00769
-NISIS 160 mg cp pellic                 15734
-ZOVIRAX 200 mg cp		       25715
-ARACYTINE 1 g pdre p sol p perf IV     01574
-BRONCATHIOL sol buv expectorant adulte 03044
-APROVEL 75 mg cp pellic		       31416
-EUPANTOL 40 mg cp gastrorésis	       38524
-FLAGYL 250 mg cp pellic		       02382
-BIORGASEPT 0,5 % sol p appl cut	       03778
-OXYCONTIN LP 120 mg cp pellic LP       46704
-CELECTOL 200 mg cp pellic 	       78429
-CORVASAL 4 mg cp		       01328
-CIMETIDINE ARROW 200 mg cp efferv      00587
-ABILIFY 15 mg cp	               96835
-VICTRELIS 200 mg gél                   67851
+ARIMIDEX 1 mg                
+AZANTAC 150 mg    	       
+CONTRAMAL 50 mg         	       
+ATORVASTATINE ACCORD 10 mg 
+EXELON 3 mg 
+CIFLOX 250 mg 
+TRIATEC 10 mg 
+DAFLON 1000 mg 
+NISIS 160 mg 
+ZOVIRAX 200 mg 
+ARACYTINE 1 g 
+BRONCATHIOL 
+APROVEL 75 mg 
+EUPANTOL 40 mg 
+FLAGYL 250 mg 
+BIORGASEPT 0,5 % 
+OXYCONTIN LP 120 mg 
+CELECTOL 200 mg 
+CORVASAL 4 mg 
+CIMETIDINE ARROW 200 mg 
+ABILIFY 15 mg 
+VICTRELIS 200 mg 
