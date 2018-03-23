@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ced6e2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bienvenue.SampleController">
+   <children>
+      <AnchorPane fx:id="square" layoutX="418.0" layoutY="79.0" prefHeight="245.0" prefWidth="231.0" style="-fx-background-color: #9bc1ff; -fx-border-color: black;">
+         <children>
+            <PasswordField fx:id="pswd_field" alignment="CENTER" layoutX="30.0" layoutY="138.0" />
+            <Button fx:id="co_buton" layoutX="74.0" layoutY="195.0" mnemonicParsing="false" onAction="#make_login" style="-fx-border-color: black;" text="connexion" textAlignment="CENTER" textFill="#000000e5" textOverrun="WORD_ELLIPSIS" />
+            <TextField fx:id="user_field" alignment="CENTER" layoutX="30.0" layoutY="79.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></TextField>
+            <Text layoutX="72.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mot de passe" />
+            <Text layoutX="82.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utilisateur" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </AnchorPane>
+      <ImageView fitHeight="178.0" fitWidth="266.0" layoutX="35.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../filer/etudiants/g6/f13006129/Documents/medicine-295067_960_720.png" />
+         </image>
+      </ImageView>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

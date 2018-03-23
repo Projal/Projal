@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ced6e2; -fx-border-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bienvenue.SampleController">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <TableView editable="true" layoutX="58.0" layoutY="170.0" prefHeight="457.0" prefWidth="897.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn prefWidth="75.0" style="fx-border-color: black;" text="nom" />
+          <TableColumn prefWidth="75.0" style="fx-border-color: black;" text="prénom" />
+            <TableColumn prefWidth="169.0" text="catégorie d'age" />
+            <TableColumn prefWidth="150.0" text="Num de secu" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
