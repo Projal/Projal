@@ -2,6 +2,7 @@ package donnees;
 
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Patient {
@@ -49,14 +50,22 @@ public class Patient {
 		return false;
 	}
 	
-	
 	public Patient(Statement stmt, int id, String nom, String prenom, int categ) throws SQLException {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.id = id;
 		this.categorieAge = categ;
 		if(!patientExistant(id, stmt))
-			stmt.executeQuery("INSERT INTO PATIENT VALUES("+id+",'"+nom+"','"+prenom+"',"+categ+")");
+			stmt.executeUpdate("INSERT INTO PATIENT VALUES("+id+",'"+nom+"','"+prenom+"',"+categ+")");
+	}
+	
+	public Patient(int id, String nom, String prenom, int cat) {
+		this.nom = nom;
+		this.prenom = prenom;
+		this.id = id;
+		this.categorieAge = cat;
+		contreIndications = new ArrayList<ContreIndication>();
+		traitements = new ArrayList<Traitement>();
 	}
 	
 	public boolean patientExistant(int id, Statement stmt)throws SQLException  {
