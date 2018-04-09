@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="background" onMouseClicked="#addMedic" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #ced6e2;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accueil.NewOrdoController">
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+   <children>
+      <AnchorPane layoutX="-4.0" layoutY="-4.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #CEE3F6; -fx-border-width: 3;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="list_medic" editable="true" layoutX="415.0" layoutY="45.0" maxWidth="269.0" minWidth="250.0" prefHeight="628.0" prefWidth="269.0" style="-fx-background-color: #F2F2F2; -fx-border-color: grey; -fx-border-radius: 6; -fx-background-radius: 6;">
+              <columns>
+                <TableColumn maxWidth="250.0" minWidth="250.0" onEditCommit="#addMedic" prefWidth="250.0" resizable="false" text="Médicaments" visible="false" />
+              </columns>
+            </TableView>
+            <TextArea fx:id="fiche_pat" editable="false" layoutX="63.0" layoutY="45.0" prefHeight="628.0" prefWidth="269.0" style="-fx-background-radius: 6; -fx-border-color: grey; -fx-border-radius: 6;" text="&#10;Nom :&#10;Prénom :&#10;Age :&#10;&#10;Numéro de Sécurité Sociale :&#10;&#10;Contre-Indications :&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Traitements en cours :" />
+            <Button fx:id="return_button" layoutX="810.0" layoutY="660.0" mnemonicParsing="false" onAction="#previous_Scene" onMouseClicked="#previous_Scene" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #F2F2F2; -fx-border-color: black; -fx-background-radius: 6; -fx-border-radius: 6;" text="Retour" textAlignment="CENTER" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="425.0" layoutY="14.0" prefHeight="21.0" prefWidth="250.0" text="Prescriptions" textAlignment="CENTER">
+               <font>
+                  <Font name="OpenSymbol" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="73.0" layoutY="14.0" prefHeight="21.0" prefWidth="250.0" text="Fiche Patient" textAlignment="CENTER">
+               <font>
+                  <Font name="OpenSymbol" size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="selec_medic" editable="true" layoutX="702.0" layoutY="45.0" prefHeight="25.0" prefWidth="250.0" promptText="Sélectionner Médicament" visibleRowCount="8" />
+            <Label alignment="CENTER" layoutX="733.0" layoutY="163.0" text="Durée du Traitement">
+               <font>
+                  <Font name="OpenSymbol" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="729.0" layoutY="186.0" />
+            <Button fx:id="prescrip_button" layoutX="724.0" layoutY="231.0" mnemonicParsing="false" onAction="#prescrire" prefHeight="11.0" prefWidth="180.0" style="-fx-background-color: #F2F2F2; -fx-border-color: black; -fx-border-radius: 6; -fx-background-radius: 6;" text="Prescrire" textAlignment="CENTER" />
+            <TextField layoutX="729.0" layoutY="121.0" />
+            <Label layoutX="778.0" layoutY="98.0" text="Posologie">
+               <font>
+                  <Font name="OpenSymbol" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="prescrip_button1" layoutX="725.0" layoutY="359.0" mnemonicParsing="false" onAction="#prescrire" prefHeight="27.0" prefWidth="180.0" style="-fx-background-color: #F2F2F2; -fx-border-color: black; -fx-border-radius: 6; -fx-background-radius: 6;" text="Valider Traitement" textAlignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #CEE3F6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accueil.AccueilController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="90.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rechercher Patient " textAlignment="CENTER">
+         <font>
+            <Font name="OpenSymbol" size="15.0" />
+         </font></Text>
+      <Button fx:id="search" layoutX="295.0" layoutY="88.0" mnemonicParsing="false" onAction="#searchButton" style="-fx-background-color: #F2F2F2; -fx-background-radius: 6; -fx-border-radius: 6; -fx-border-color: grey;" stylesheets="@bienvenue.css" text="Rechercher" textAlignment="CENTER" />
+      <TextField fx:id="text_search" layoutX="90.0" layoutY="89.0" prefHeight="25.0" prefWidth="200.0" promptText="Nom du Patient" />
+        <TableView fx:id="table" layoutX="90.0" layoutY="119.0" prefHeight="543.0" prefWidth="800.0" style="-fx-border-color: grey;">
+            <columns>
+                <TableColumn fx:id="lastNameCol" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Nom" />
+                <TableColumn fx:id="firstNameCol" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Prénom" />
+                <TableColumn fx:id="ageCol" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Catégorie d'age" />
+                <TableColumn fx:id="secuCol" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" text="Numsecu" />
+            </columns>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+        </TableView>
+    </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
